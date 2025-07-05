@@ -14,20 +14,20 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px 20px;
 }
 
 #logo {
     width: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
 #logo img {
-    width: 90px;
+    width: 105px;
     height: 65px;
 }
 
@@ -53,13 +53,13 @@ header {
 
 #menu ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 #menu ul li a:hover {
-    color: #cc0000;
+    color: red;
 }
 
 #destaque {
@@ -79,7 +79,7 @@ header {
 }
 
 .lista-carros li {
-    background-color: #f5f5f5;
+    background-color: white;
     border-radius: 10px;
     padding: 10px;
     width: 260px;
@@ -99,7 +99,7 @@ header {
 }
 
 #rodape {
-    background-color: #111;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -129,5 +129,28 @@ header {
 }
 
 #social-icons a:hover {
-    color: #cc0000;
+    color: red;
+}
+/*****SOBRE*****/
+#sobre {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#sobre h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: red;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+#sobre p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: black;
 }
